@@ -8,7 +8,7 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 
-const Header = () => {
+const Heade = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
 
